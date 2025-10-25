@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-contents fixed-top">
+        <div class="topbar">
+          <div class="container">
+            <div class="top-content">
+              <p class="text-primary fw-bold">
+                New Course Launch Offer 40% off - Grab Now
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg" id="navbar">
+          <div class="container">
+            <a class="navbar-brand text-warning" href="#"
+              ><figure>
+                <img
+                  src="./images/education-logo.webp"
+                  class="mt-3"
+                  alt=""
+                  style="width: 50px"
+                /></figure
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active ms-5 text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ms-5" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+              <div class="nav-icons">
+                <div class="login-icon">
+                  <a href="log-in.html" class="text-white fw-bold">Log-In</a>
+                </div>
+                <div class="sign-up-icon">
+                  <a href="sign-up.html" class="text-white fw-bold">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="./images/edu-banner-1.webp"
+              class="d-block w-100"
+              alt="..."
+              height="1000"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="./images/edu-banner-2.webp"
+              class="d-block w-100"
+              alt="..."
+              height="1000"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section class="about section-padding container" id="about">
+        <h2 class="text-center mb-5">36 Years of Legacy</h2>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="about-cards">
+              <figure><img src="./images/building-icon.svg" alt="" /></figure>
+              <h3>500+</h3>
+              <p>Coaching centres in India</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="about-cards">
+              <figure><img src="./images/engg-doc-icon.svg" alt="" /></figure>
+              <h3>131,800+</h3>
+              <p>Aspirants qualified NEET & JEE in 2025</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="about-cards">
+              <figure><img src="./images/teacher-icon.svg" alt="" /></figure>
+              <h3>6000+</h3>
+              <p>Expert Faculty</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses section-padding container" id="courses">
+        <h2 class="text-center mb-5">Popular Courses</h2>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="course-cards">
+              <h3 class="text-center">Engineering</h3>
+
+              <ul>
+                <li>
+                  Two Year First Step Integrated Classroom Course for JEE (Main
+                  and Advanced)
+                </li>
+                <li>
+                  One Year Second Step Integrated Classroom Course for JEE (Main
+                  and Advanced)
+                </li>
+              </ul>
+
+              <a href="#"
+                ><span class="text-center text-primary fw-bold"
+                  >Check More</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="course-cards">
+              <h3 class="text-center">Medical</h3>
+
+              <ul>
+                <li>Two Year Integrated Classroom Course for NEET</li>
+                <li>One Year XII cum Medical Classroom Course for NEET</li>
+              </ul>
+
+              <a href="#"
+                ><span class="text-center text-primary fw-bold"
+                  >Check More</span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="course-cards">
+              <h3 class="text-center">Foundation</h3>
+
+              <ul>
+                <li>
+                  One Year Integrated Classroom Course for Olympiads, NTSE &
+                  Class X
+                </li>
+                <li>
+                  Two Year Integrated Classroom Course for Olympiads, NTSE &
+                  Class IX to X
+                </li>
+              </ul>
+
+              <a href="#"
+                ><span class="text-center text-primary fw-bold"
+                  >Check More</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-padding container" id="contact">
+        <div class="container">
+          <div class="form-wrapper mx-auto">
+            <h2 class="text-center fw-bold mb-3">Talk to our expert</h2>
+            <div class="text-center mb-3">
+              <button class="btn btn-primary call-btn">
+                📞 Call now for free
+              </button>
+            </div>
+            <p class="text-center fw-semibold">or</p>
+            <h5 class="text-center mb-4">Request call back</h5>
+
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-8">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Mobile No."
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn btn-outline-primary w-100">
+                    Send OTP
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option value="" disabled selected>Stream</option>
+                    <option value="NEET">NEET</option>
+                    <option value="JEE">JEE</option>
+                    <option value="Foundation">Foundation</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option value="" disabled selected>Select Class</option>
+                    <option value="11">Class 11</option>
+                    <option value="12">Class 12</option>
+                    <option value="Dropper">Dropper</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Center"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Id"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <div class="form-check small">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agree"
+                      required
+                    />
+                    <label class="form-check-label ms-3" for="agree">
+                      By submitting this form, I agree to receive all the
+                      Whatsapp communication on <br> my registered number and
+                      agreeing to Aakash’s
+                      <a href="#" class="link">Terms Of Use</a> and
+                      <a href="#" class="link">Privacy Policy</a>.
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn submit-btn mt-3">
+                    Submit Now
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-primary text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4">
+            <h5 class="text-start">About Us</h5>
+            <p class="fs-6">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              iste.
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <h5></h5>
+            <ul>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4">
+            <h5></h5>
+            <a href="#" class="text-white me-2"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="#" class="text-white me-2"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="#" class="text-white me-2"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white me-2"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+
+            <hr class="border-light" />
+            <div class="text-start">
+              <p class="mb-0 small">
+                &copy; 2025 your Company. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- popper js cdn-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootatrap js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
