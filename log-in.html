@@ -29,15 +29,23 @@
         <div class="topbar">
           <div class="container">
             <div class="top-content">
-              <p class="text-primary fw-bold">New Course Launch Offer 40% off - Grab Now</p>
+              <p class="text-primary fw-bold">
+                New Course Launch Offer 40% off - Grab Now
+              </p>
             </div>
           </div>
         </div>
 
         <nav class="navbar navbar-expand-lg" id="navbar">
           <div class="container">
-            <a class="navbar-brand " href="#"
-              ><figure><img src="./images/education-logo.webp" class="mt-3" alt="" style="width: 50px;"/></figure
+            <a class="navbar-brand" href="#"
+              ><figure>
+                <img
+                  src="./images/education-logo.webp"
+                  class="mt-3"
+                  alt=""
+                  style="width: 50px"
+                /></figure
             ></a>
             <button
               class="navbar-toggler"
@@ -89,16 +97,22 @@
       <section class="discuss-form">
         <div class="container">
           <a class="navbar-brand text-warning" href="#"
-              ><figure><img src="./images/education-logo.webp" class="mt-3" alt="" style="width: 60px;"/></figure
-            ></a>
+            ><figure>
+              <img
+                src="./images/education-logo.webp"
+                class="mt-3"
+                alt=""
+                style="width: 60px"
+              /></figure
+          ></a>
           <h1 class="text-center fw-bold mb-5 text-primary">
             Join Us & Shine Bright!
           </h1>
 
-          <form action="submit.php" method="post" id="Form">
+          <form action="login.php" method="POST" id="Form">
             <input
               type="text"
-              name="name"
+              name="username"
               id="name"
               placeholder="Enter Full Name"
               required
@@ -114,6 +128,7 @@
 
             <label for="interest">Yor interest</label>
             <select name="interest" id="interest" required>
+              <option value="Student">Student</option>
               <option value="Collaborator">Collaborator</option>
               <option value="Investor">Investor</option>
               <option value="Cofounder">Cofounder</option>
@@ -124,13 +139,15 @@
               id="msg"
               placeholder="Addituional Details"
               rows="6"
+              required
             ></textarea>
 
-            <div class="form-btn-div">
-                <a href="#" class="form-btn">Submit</a>
-
-            </div>
-
+            <button type="submit" class="btn submit-btn mt-3 login-btn">
+              Login 
+            </button>
+             <p class="text-center">
+              Don't have an account? <span class="text-primary"><a href="sign-up.html"><b>Sign Up</b></a></span>
+            </p>
             
           </form>
         </div>
@@ -150,6 +167,5 @@
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>
